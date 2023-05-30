@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding:0px;
+    text-decoration: none;
+}
+.navbar{
+    background-color: #0B2447;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    color: #ffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+li a:hover{
+    color: #ff720f;
+}
+button{
+    background-color:#ff720f;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+button a{
+    color: #ffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #166bc6;
+}
+.imag{
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+.mid{
+    position: relative;
+    
+}
+.mid img{
+    width: 100%;
+    height: 90vh;
+}
+.texthd{
+    color: #ffff;
+    position:absolute;
+    top: 40%;
+    padding: 20px;
+}
+.texthd h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.texthd h2 span{
+    color: #ff720f;
+}
+
+.texthd p {
+    font-size: 25px;
+    width: 40%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-left: 20%;
+}
+.texthd button{
+    border-radius: 10px;
+    background-color: #166bc6;
+    width: auto;
+    
+}
+#about{
+    position: relative;
+}
+#about img{
+    width:100%;
+    height: 90vh;
+}
+.sectabt{
+    position: absolute;
+    top:10%;
+    margin: auto;
+}
+.sectabt h1{
+    color: #ff720f;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight:bold;
+    padding-left: 600px;
+}
+.sectabt p{
+    color: #ffff;
+    font-size: 25px;
+    width: 40%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-left: 20%;
+}
+.foots{
+    width: 100%;
+}
+.foot{
+    background-color: #ededed;
+    height: 200px;
+}
+.foot .footer{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+    padding-top: 10px;
+}
+.foot .footer a{
+    font-size: 24px;
+    color:inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 8px;
+}
+.foot ul{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.foot ul li {
+display: inline-block;
+padding: 0 15px;;
+}
+.foot li:hover{
+    color: #166bc6;
+}
+.foot .copyright{
+    padding-top: 15px;
+    text-align: center;
+    color: #aaa;
+    font-size: 13px;
+}
+
+
+/* ------------------ */
+.container{
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    background-color: black;
+
+}
+.container .card{
+    width:25%;
+    background-color: #aaa;
+    margin: 15px 15px;
+    padding: 15px;
+    border: 1px solid;
+}
+.container .card:hover{
+    box-shadow: 10px 10px 10px  yellow;
+}
+.container .card img{
+    height:75%;
+    width:100%;
+}
+.edittex{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 400;
+    text-align: center;
+}
+.texthd button:hover{
+    background-color: #ff720f;
+}
+.foot .footer a{
+    color: skyblue;
+}
+.foot .footer a:hover{
+    color: darkblue;
+}
